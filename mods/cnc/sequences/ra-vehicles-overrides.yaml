@@ -1,0 +1,5 @@
+ra3tnk:
+	Defaults:
+		RemasteredFilename: DATA\ART\TEXTURES\SRGB\RED_ALERT\UNITS\3TNK.ZIP
+	icon:
+		RemasteredFilename: ../bits/ra-icons/3tnk.png

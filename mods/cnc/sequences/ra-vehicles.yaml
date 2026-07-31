@@ -1,0 +1,11 @@
+ra3tnk:
+	idle:
+		Start: 0
+		Facings: 32
+	turret:
+		Start: 32
+		Length: 1
+		Stride: 8
+		Facings: 32
+	icon:
+		Start: 0

@@ -1,0 +1,41 @@
+ra3tnk:
+	Inherits: ^Tank
+	Inherits@EXPERIENCE: ^GainsExperience
+	Inherits@AUTOTARGET: ^AutoTargetAllAssaultMove
+	Valued:
+		Cost: 1150
+	Tooltip:
+		Name: Heavy Tank
+	UpdatesPlayerStatistics:
+		AddToArmyValue: true
+	Buildable:
+		BuildPaletteOrder: 100
+		Prerequisites: weap
+		Queue: Vehicle.GDI
+	Mobile:
+		Locomotor: heavytracked
+		Speed: 62
+		TurnSpeed: 20
+	Health:
+		HP: 60000
+	Repairable:
+		HpPerStep: 1500
+	Armor:
+		Type: Heavy
+	RevealsShroud:
+		Range: 6c0
+	WithSpriteTurret:
+	Turreted:
+		TurnSpeed: 20
+	Armament:
+		Weapon: 105mm
+		LocalOffset: 900,0,340
+		Recoil: 170
+		RecoilRecovery: 42
+		Turret: primary
+	AttackMove:
+		Voice: Attack
+	AttackTurreted:
+		Voice: Attack
+	SpawnActorOnDeath:
+		Actor: ra3tnk.Husk

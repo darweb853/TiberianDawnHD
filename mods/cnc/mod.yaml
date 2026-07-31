@@ -240,6 +240,7 @@ Rules:
 	cnc|rules/husks.yaml
 	cnc|rules/map-generators.yaml
 	cnchd|rules/overrides.yaml
+	cnchd|rules/ra-vehicles.yaml
 
 Sequences:
 	cnc|sequences/structures.yaml
@@ -260,6 +261,8 @@ Sequences:
 	cnchd|sequences/civilian-overrides.yaml
 	cnc|sequences/campaign.yaml
 	cnchd|sequences/campaign-overrides.yaml
+	cnchd|sequences/ra-vehicles.yaml
+	cnchd|sequences/ra-vehicles-overrides.yaml
 
 TileSets:
 	cnchd|tilesets/desert.yaml
@@ -274,6 +277,7 @@ Weapons:
 	cnc|weapons/other.yaml
 	cnc|weapons/smallcaliber.yaml
 	cnc|weapons/superweapons.yaml
+    cnchd|weapons/ra-weapons.yaml
 
 Cursors:
 	cnc|cursors.yaml
